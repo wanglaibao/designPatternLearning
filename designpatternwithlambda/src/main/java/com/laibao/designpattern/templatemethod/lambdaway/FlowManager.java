@@ -1,11 +1,13 @@
-package com.laibao.designpattern.templatemethod;
+package com.laibao.designpattern.templatemethod.lambdaway;
 
 /**
  * @author laibao wang
  * @date 2018-08-12
  * @version 1.0
  */
-public interface DefaultFlowManager{
+@FunctionalInterface
+public interface FlowManager {
+    void doTask();
 
     default void doTask1(){
         System.out.println("Doing Task1...");
