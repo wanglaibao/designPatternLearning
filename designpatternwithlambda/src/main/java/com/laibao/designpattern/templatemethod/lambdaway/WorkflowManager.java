@@ -1,4 +1,7 @@
-package com.laibao.designpattern.templatemethod;
+package com.laibao.designpattern.templatemethod.lambdaway;
+
+import com.laibao.designpattern.templatemethod.lambdaway.DefaultFlowManager;
+import com.laibao.designpattern.templatemethod.lambdaway.FlowManager;
 
 /**
  * @author laibao wang

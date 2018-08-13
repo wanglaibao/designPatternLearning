@@ -1,4 +1,4 @@
-package com.laibao.designpattern.templatemethod;
+package com.laibao.designpattern.templatemethod.lambdaway;
 
 /**
  * @author laibao wang
